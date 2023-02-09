@@ -1,4 +1,4 @@
-let num = Number(prompt("Enter a number"))
+const num = Number(prompt("Enter a number"))
 
 let result = num%10 + Math.floor(num/10)
 
