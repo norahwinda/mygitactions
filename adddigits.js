@@ -1,6 +1,5 @@
 let num = Number(prompt("Enter a number"))
 
-function addTwoDigits(dig){
-    return dig%10 + Math.floor(dig/10)
-}
-console.log(addTwoDigits(num))
+let result = num%10 + Math.floor(num/10)
+
+console.log(result)
